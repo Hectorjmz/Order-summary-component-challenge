@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgb(216,223,252);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 330px;
+    min-height: 570px;
+    border-radius: 20px;
+}
+.main-img{
+    display: flex;
+    width: 330px;
+    height: 160px;
+    border-radius: 25px 25px 0 0;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 160%;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 0 25px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    background-color: rgb(248,249,254);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-plan{
+    display: flex;
+    flex-direction: column;
+    line-height: 140%;
+}
+.sub-plan-type{
+    font-weight: bold;
+}
+.sub-plan-price{
+    color: rgb(123,131,156);
+}
+.change{
+    color: rgb(72,39,188);
+    text-decoration: underline;
+    font-size: smaller;
+    font-weight: bolder;
+}
+button{
+    background-color: rgb(75,32,225);
+    margin: 25px;
+    height: 50px;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+.cancel{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(118,125,155);
+    font-weight: bolder;
+}
